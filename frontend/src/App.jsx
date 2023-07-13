@@ -1,8 +1,11 @@
 import React from "react";
+import Navbar from "./components/Navbar./Navbar";
 
 const App = () => {
   return (
-    <header className="hero flex flex-col md:flex-row bg-orange-100">
+   <>
+   <Navbar/>
+    <header className="hero flex flex-col md:flex-row bg-orange-50 py-8">
       <div className="container mx-auto flex flex-col md:flex-row ">
         <section className="hero-txt w-full md:w-2/5">
           <h1 className="text-4xl md:text-8xl font-bold font-serif">Find Your Next Book</h1>
@@ -65,6 +68,64 @@ const App = () => {
         </section>
       </div>
     </header>
+    {/* best sellers section */}
+    <section className="best-sellers py-8">
+      <div className="container mx-auto">
+        <div className="flex flex-col md:flex-row">
+          <div className="w-full md:w-1/3">
+            <h2 className="text-2xl font-bold font-serif mb-4">Best Sellers</h2>
+            <p className="text-gray-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatum, quibusdam, voluptate, quas quod voluptas quia
+              voluptatibus quos doloribus quae voluptatem. Quisquam voluptatum,
+              quibusdam, voluptate, quas quod voluptas quia voluptatibus quos
+              doloribus quae voluptatem.
+            </p>
+          </div>
+          <div className="w-full md:w-2/3">
+            <div className="flex flex-wrap">
+              <div className="w-full md:w-1/2 p-4">
+                <figure className="item-image">
+                  <img
+
+                    className="max-w-full h-auto "
+                    src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqnQWlbi1AnkRDz3mTU2yYVuwkXsFiptcqQ_COdk16xkijN8yG"
+                    alt="Gone Girl"
+                  />
+                </figure>
+                <figcaption className="book-name text-xl font-semibold font-serif text-center mt-2">
+                  Gone Girl
+                </figcaption>
+                <figcaption className="author text-sm text-black text-center mt-1">
+                  Gillian Flynn
+                </figcaption>
+              </div>
+              <div className="w-full md:w-1/2 p-4">
+                <figure className="item-image">
+                  <img
+
+                    className="max-w-full h-auto "
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNWejY-YD8zulonPmb-CqVqEmsMJtg98XHIZhpepMPQbPmXuuJ"
+                    alt="Lockdown"
+                  />
+                </figure>
+                <figcaption className="book-name text-xl font-semibold font-serif text-center mt-2">
+                  Lockdown
+                </figcaption>
+                <figcaption className="author text-sm text-black text-center mt-1">
+                  Alexander Gordon Smith
+                </figcaption>
+              </div>
+            <div/>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    
+
+
+   </>
   );
 };
 
