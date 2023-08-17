@@ -3,8 +3,8 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      {/* responsive navbar using tailwind css including (nav items: Title, Books, Category, about us, blog, wishlist, searchbox, cart, signin) */}
-      <nav className="flex items-center justify-between flex-wrap bg-orange-50 p-6">
+      
+      <nav className="font-body flex items-center justify-between flex-wrap bg-orange-50 p-6">
         <div className="flex items-center flex-shrink-0 text-stone-950 mr-6">
           <span className="font-semibold text-4xl tracking-tight">
             Byte Books
@@ -15,31 +15,31 @@ const Navbar = () => {
           <div className="text-sm lg:flex-grow">
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0  text-base font-semibold text-zinc-600 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-5 lg:inline-block lg:mt-0  text-base font-small text-zinc-600 hover:text-zinc-950 mr-4"
             >
               Books
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-base font-semibold text-zinc-600 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-5 lg:inline-block lg:mt-0 text-base font-small text-zinc-600 hover:text-zinc-950 mr-4"
             >
               Categories
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-base font-semibold text-zinc-600 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-5 lg:inline-block lg:mt-0 text-base font-small text-zinc-600 hover:text-zinc-950 mr-4"
             >
               Blog
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-base font-semibold text-zinc-600 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-5 lg:inline-block lg:mt-0 text-base font-small text-zinc-600 hover:text-zinc-950 mr-4"
             >
               Wishlist
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-base font-semibold text-zinc-600 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-5 lg:inline-block lg:mt-0 text-base font-small text-zinc-600 hover:text-zinc-950 mr-4"
             >
               About Us
             </a>
