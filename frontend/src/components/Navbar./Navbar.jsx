@@ -3,8 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      
-      <nav className="font-body flex items-center justify-between flex-wrap bg-orange-50 py-8 px-[80px]">
+      <nav className="font-body flex items-center justify-between flex-wrap bg-orange-50 py-8 px-[80px] lg:px-3 ">
         <div className="flex items-center flex-shrink-0 text-stone-950 mr-14">
           <span className="font-semibold text-4xl tracking-tight">
             Byte Books
@@ -15,31 +14,31 @@ const Navbar = () => {
           <div className="text-sm lg:flex-grow">
             <a
               href="#responsive-header"
-              className="block mt-4 px-4 lg:inline-block lg:mt-0  text-base font-small text-zinc-700 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-4 lg:inline-block lg:mt-0  text-base font-small text-zinc-700 hover:text-zinc-950 mr-4 md:mr-1 sm:mr-0  "
             >
               Books
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 px-4 lg:inline-block lg:mt-0 text-base font-small text-zinc-700 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-4 lg:inline-block lg:mt-0 text-base font-small text-zinc-700 hover:text-zinc-950 mr-4 md:mr-1 sm:mr-0 "
             >
               Categories
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 px-4 lg:inline-block lg:mt-0 text-base font-small text-zinc-700 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-4 lg:inline-block lg:mt-0 text-base font-small text-zinc-700 hover:text-zinc-950 mr-4 md:mr-1 sm:mr-0 "
             >
               Blog
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 px-4 lg:inline-block lg:mt-0 text-base font-small text-zinc-700 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-4 lg:inline-block lg:mt-0 text-base font-small text-zinc-700 hover:text-zinc-950 mr-4 md:mr-1 sm:mr-0 "
             >
               Wishlist
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 px-4 lg:inline-block lg:mt-0 text-base font-small text-zinc-700 hover:text-zinc-950 mr-4"
+              className="block mt-4 px-4 lg:inline-block lg:mt-0 text-base font-small text-zinc-700 hover:text-zinc-950 mr-4 md:mr-1 sm:mr-0 "
             >
               About Us
             </a>
@@ -65,7 +64,7 @@ const Navbar = () => {
                 type="search"
                 name="search"
                 placeholder="Search book..."
-                class="pl-10 pr-5 py-2 bg-transparent border-b border-zinc-950 focus:border-black  focus:outline-none placeholder:text-zinc-700"
+                class="w-full sm:w-32 md:w-48 lg:w-80 pl-10 pr-5 py-2 bg-transparent border-b border-zinc-950 focus:border-black focus:outline-none placeholder:text-zinc-700"
               />
             </div>
           </div>
