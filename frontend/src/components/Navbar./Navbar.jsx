@@ -64,7 +64,9 @@ const Navbar = () => {
                 type="search"
                 name="search"
                 placeholder="Search book..."
-                class="w-full sm:w-32 md:w-48 lg:w-80 pl-10 pr-5 py-2 bg-transparent border-b border-zinc-950 focus:border-black focus:outline-none placeholder:text-zinc-700"
+                // hide place holder for md and below
+                class="w-full sm:w-32 md:w-48 lg:w-80 pl-10 pr-5 py-2 bg-transparent border-b border-zinc-950 focus:border-black focus:outline-none placeholder:text-zinc-700  md:border-0  
+                "
               />
             </div>
           </div>
