@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <div>
-      <header className="bg-white">
+      <nav className="bg-white">
         <nav className="flex justify-between items-center w-[92%] mx-auto h-16 md:h-20
         ">
           <div>
@@ -45,7 +45,7 @@ function Navbar() {
             )}
           </div>
         </nav>
-      </header>
+      </nav>
     </div>
   );
 }
