@@ -5,7 +5,7 @@ const Hero = () => {
     <header className=" container bg-orange-50 py-24">
         <div className=" md:flex items-center justify-between sm:flex-col md:flex-row ">
           <section className=" w-full md:w-2/5">
-            <h1 className=" text-3xl md:text-5xl lg:text-7xl lg:leading-snug font-bold font-serif ">
+            <h1 className=" text-3xl md:text-5xl font-bold font-serif ">
               Find Your Next Book
             </h1>
             <p className=" pt-4 text-base md:text-lg text-gray-900 w-3/4">
@@ -16,9 +16,10 @@ const Hero = () => {
               Explore Now
             </button>
           </section>
+
           <section className=" w-full md:w-3/5">
-            <div className="image-wrapper flex flex-wrap">
-              <div className="item w-full md:w-1/3 p-4">
+            <div className="image-wrapper flex flex-wrap items-center justify-center">
+              <div className=" item w-[300px] md:w-1/3 p-4">
                 <figure className="item-image">
                   <img
                     className="max-w-full h-auto rounded-t-full 
@@ -34,7 +35,7 @@ const Hero = () => {
                   Gillian Flynn
                 </figcaption>
               </div>
-              <div className="item w-full md:w-1/3 p-4">
+              <div className="item w-[300px] md:w-1/3 p-4">
                 <figcaption className="book-name text-xl font-semibold font-serif text-center mt-2">
                   In The Woods
                 </figcaption>
@@ -49,7 +50,7 @@ const Hero = () => {
                   />
                 </figure>
               </div>
-              <div className="item w-full md:w-1/3 p-4">
+              <div className="item w-[300px] md:w-1/3 p-4">
                 <figure className="item-image">
                   <img
                     className="max-w-full h-auto rounded-t-full"

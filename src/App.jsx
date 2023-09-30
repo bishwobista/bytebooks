@@ -10,7 +10,6 @@ const App = () => {
       <Navbar />
       <Hero/>
       <Sellers/>
-      
       <Footer/>
     </>
   );

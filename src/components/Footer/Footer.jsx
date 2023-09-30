@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className=" py-8 font-serif">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 2xl:grid-cols-5 gap-8">
           <div className="mb-4">
             <h4 className="text-2xl font-semibold mb-6">Company</h4>
             <ul>
@@ -129,7 +129,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="mb-4">
+          <div className="contact-form mb-4 w-full ">
             <h2 className="text-2xl font-semibold mb-6">Contact Us</h2>
             <form>
               <input
