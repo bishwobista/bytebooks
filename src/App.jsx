@@ -4,12 +4,14 @@ import Footer from "./components/Footer/Footer";
 import Hero from "./pages/Hero";
 import "./App.css";
 import Sellers from "./pages/Sellers";
+import Offers from "./components/Offers/Offers";
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero/>
       <Sellers/>
+      <Offers />
       <Footer/>
     </>
   );
