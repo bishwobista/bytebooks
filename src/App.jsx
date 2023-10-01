@@ -5,12 +5,14 @@ import Hero from "./pages/Hero";
 import "./App.css";
 import Sellers from "./pages/Sellers";
 import Offers from "./components/Offers/Offers";
+import Top10 from "./pages/Top10";
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero/>
       <Sellers/>
+      <Top10/>
       <Offers />
       <Footer/>
     </>
